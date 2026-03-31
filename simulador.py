@@ -1,7 +1,9 @@
-continuar = input("Deseja continuar jogando? ").strip().lower()
+while True:
+  continuar = input("Deseja continuar jogando? ").strip().lower()
 
-if continuar == "sim":
-    print("Você ainda está no jogo!🎮")
-
-else:
-    print("Game over💀")
+  if continuar == "sim":
+       print("Você ainda está no jogo!🎮")
+    
+  else:
+       print("Game over💀")
+       break
